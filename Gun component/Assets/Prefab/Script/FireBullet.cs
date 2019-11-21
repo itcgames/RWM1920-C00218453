@@ -9,9 +9,13 @@ public class FireBullet : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 newPosition = new Vector3( transform.position.x +2.4f, transform.position.y +1.4f, transform.position.z );
+            Vector3 vector = new Vector3( 2.4f, 1.3f, 0.0f );//2.4,1.4,0
             Quaternion newRotation = transform.rotation;
-            Debug.Log(newRotation.z);
+            vector = Quaternion.Euler(0, 0, newRotation.eulerAngles.z) * vector;
+
+            Vector3 newPosition = new Vector3(transform.position.x + vector.x, transform.position.y + vector.y, transform.position.z );
+            
+            newRotation = Quaternion.Euler(0, 0, newRotation.eulerAngles.z - 90.0f);
             Instantiate(bullet, newPosition, newRotation);
         }
     }

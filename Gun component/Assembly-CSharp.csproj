@@ -61,7 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Prefab\Script\BulletMove.cs" />
+    <Compile Include="Assets\Prefab\Script\CasingEject.cs" />
     <Compile Include="Assets\Prefab\Script\FireBullet.cs" />
+    <Compile Include="Assets\Prefab\Script\HammerSwing.cs" />
+    <Compile Include="Assets\Prefab\Script\StockSlide.cs" />
+    <Compile Include="Assets\Prefab\Script\TriggerFire.cs" />
     <Reference Include="UnityEngine.ARModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
     </Reference>

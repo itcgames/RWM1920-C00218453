@@ -112,75 +112,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &428153955
+--- !u!1001 &865615334
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4553191815835520522, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 1720252154994720210, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_Name
-      value: Gun
+      value: Entire Gun
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6567878139275627956, guid: dfe7bbc4e69011f44a47f70851e115eb,
+    - target: {fileID: 447394650188643811, guid: 320f3dd8c647b50458c97fdd76263aef,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1974793402, guid: 320f3dd8c647b50458c97fdd76263aef, type: 3}
+      propertyPath: bulletCasing
+      value: 
+      objectReference: {fileID: 6009877925323708356, guid: 858997abad4fc414f9564831de6aba04,
+        type: 3}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dfe7bbc4e69011f44a47f70851e115eb, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 320f3dd8c647b50458c97fdd76263aef, type: 3}
 --- !u!1 &1592179592
 GameObject:
   m_ObjectHideFlags: 0

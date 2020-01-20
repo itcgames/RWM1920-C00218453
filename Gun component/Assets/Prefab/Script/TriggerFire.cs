@@ -6,16 +6,19 @@ public class TriggerFire : MonoBehaviour
 {
     public float gameTimer;
     public bool start;
+    public GameObject gun;
+    public Vector3 startPos;
     void Start()
     {
         start = false;
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !start)
+        if (gun.transform.localScale.z == -1 && !start)
         {
             start = true;
             gameTimer = 0.0f;
+            startPos = transform.position;
         }
         if (start)
         {
@@ -29,7 +32,7 @@ public class TriggerFire : MonoBehaviour
                 newPosition.x += newVector.x / 45;
                 newPosition.y += newVector.y / 45;
                 transform.position = newPosition;
-            } 
+            }
             else if (gameTimer >= 0.3f && gameTimer < 0.4f)
             {
                 Vector3 newVector;
@@ -40,9 +43,11 @@ public class TriggerFire : MonoBehaviour
                 newPosition.y += newVector.y / 45;
                 transform.position = newPosition;
             }
-            else if(gameTimer > 0.6f)
+            else if (gameTimer > 0.6f)
             {
                 start = false;
+                gun.transform.localScale = new Vector3(gun.transform.localScale.x, gun.transform.localScale.y, 1);
+                transform.position = startPos;
             }
         }
     }

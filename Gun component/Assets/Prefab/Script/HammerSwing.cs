@@ -6,13 +6,14 @@ public class HammerSwing : MonoBehaviour
 {
     public float gameTimer;
     public bool start;
+    public GameObject gun;
     void Start()
     {
         start = false;
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !start)
+        if (gun.transform.localScale.z == -1 && !start)
         {
             start = true;
             gameTimer = 0.0f;

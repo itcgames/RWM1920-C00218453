@@ -194,6 +194,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &927037695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1765892155451685658, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1885664498}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1885664498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205,6 +211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Entire Gun 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765892155451685658, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 678727046283705131, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
@@ -261,66 +272,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7822122578326294786, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+    - target: {fileID: 8713290660182213799, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0950cd87de8bfc144b68a42ee0da2d4f,
-        type: 3}
-    - target: {fileID: 7822122578326294786, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
+      propertyPath: m_LocalPosition.x
+      value: -1.29
       objectReference: {fileID: 0}
-    - target: {fileID: 2765247694797020706, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+    - target: {fileID: 3926878941057184476, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: a1ec8b745e26da240b4e90627a213f90,
-        type: 3}
-    - target: {fileID: 2765247694797020706, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+    - target: {fileID: 4218850169260684314, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 7319915112665796458, guid: a4896eb0714816c428aac8c1230920e2,
-        type: 3}
-    - target: {fileID: 5878070697929842750, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c8efddcf4344e984c968449a07083a47,
-        type: 3}
-    - target: {fileID: 5878070697929842750, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1107364026932998770, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+    - target: {fileID: 9221887528732190573, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
-      propertyPath: bulletCasing
-      value: 
-      objectReference: {fileID: 6009877925323708356, guid: 0812c775b3bd2a944a2f526557abcdfb,
-        type: 3}
-    - target: {fileID: 3559208534477259097, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: da7298c62fb2d7946b7137fac68eaf78,
-        type: 3}
-    - target: {fileID: 3559208534477259097, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 778598520545798343, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+    - target: {fileID: 3569081136662889161, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
-      propertyPath: scaleInput
-      value: 1
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1107364028435170774, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 927037695}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7cb6f4a71335ac42b80a8e7fa3235e3, type: 3}

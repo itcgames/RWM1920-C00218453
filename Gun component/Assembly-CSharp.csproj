@@ -64,6 +64,7 @@
     <Compile Include="Assets\Prefab\Script\CasingEject.cs" />
     <Compile Include="Assets\Prefab\Script\FireBullet.cs" />
     <Compile Include="Assets\Prefab\Script\HammerSwing.cs" />
+    <Compile Include="Assets\Prefab\Script\setScale.cs" />
     <Compile Include="Assets\Prefab\Script\StockSlide.cs" />
     <Compile Include="Assets\Prefab\Script\TriggerFire.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

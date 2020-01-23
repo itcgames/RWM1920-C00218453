@@ -26,7 +26,7 @@ public class StockSlide : MonoBehaviour
         if (start)
         {
             gameTimer += Time.deltaTime;
-            if (gameTimer >= 0.3f && gameTimer < 0.4f)
+            if (gameTimer >= setScale.FIRE_RATE/2 && gameTimer < (2 * setScale.FIRE_RATE) / 3)
             {
                 Vector3 newVector;
                 Vector3 newPosition = transform.position;
@@ -36,7 +36,7 @@ public class StockSlide : MonoBehaviour
                 newPosition.y += newVector.y / 5 * setScale.GUN_SCALE;
                 transform.position = newPosition;
             }
-            else if (gameTimer >= 0.4f && gameTimer < 0.5f && noSpam)
+            else if (gameTimer >= (2 * setScale.FIRE_RATE) / 3 && gameTimer < (5 * setScale.FIRE_RATE) / 6 && noSpam)
             {
                 Vector3 vector = new Vector3(0.6f * setScale.GUN_SCALE, -2.0f * setScale.GUN_SCALE, 0.0f);
                 Quaternion newRotation = transform.rotation;
@@ -48,7 +48,7 @@ public class StockSlide : MonoBehaviour
                 Instantiate(bulletCasing, newPosition, newRotation);
                 noSpam = false;
             }
-            else if (gameTimer >= 0.5f && gameTimer < 0.6f)
+            else if (gameTimer >= (5 * setScale.FIRE_RATE) / 6 && gameTimer < setScale.FIRE_RATE)
             {
                 Vector3 newVector;
                 Vector3 newPosition = transform.position;
@@ -58,7 +58,7 @@ public class StockSlide : MonoBehaviour
                 newPosition.y += newVector.y / 5 * setScale.GUN_SCALE;
                 transform.position = newPosition;
             }
-            else if (gameTimer > 0.6f)
+            else if (gameTimer > setScale.FIRE_RATE)
             {
                 start = false;
                 transform.position = startPos;

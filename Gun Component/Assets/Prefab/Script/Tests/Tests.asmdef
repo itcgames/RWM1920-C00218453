@@ -1,12 +1,14 @@
 {
-    "name": "TestBulletMoveAsse",
+    "name": "Tests",
     "references": [
-        "NewAssembly"
+        "BulletMoveAsse"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

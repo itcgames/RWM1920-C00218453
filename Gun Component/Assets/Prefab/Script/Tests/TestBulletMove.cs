@@ -53,8 +53,6 @@ namespace Tests
             {
                 result.x = 0;
             }
-            Debug.Log(result);
-            Debug.Log(desiredResult);
             Assert.AreEqual(result, desiredResult);
             yield return null;
         }
@@ -74,8 +72,6 @@ namespace Tests
                 result.x = 0;
             }
             result.x += temp;
-            Debug.Log(result);
-            Debug.Log(desiredResult);
             Assert.AreEqual(result, desiredResult);
             yield return null;
         }

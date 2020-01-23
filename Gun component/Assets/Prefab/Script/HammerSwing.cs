@@ -21,17 +21,17 @@ public class HammerSwing : MonoBehaviour
         if (start)
         {
             gameTimer += Time.deltaTime;
-            if (gameTimer >= 0.2f && gameTimer < 0.3f)
+            if (gameTimer >= setScale.FIRE_RATE/3 && gameTimer < setScale.FIRE_RATE/2)
             {
                 Quaternion newRotation = Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z - 14);
                 transform.rotation = newRotation;
             }
-            else if (gameTimer >= 0.3f && gameTimer < 0.4f)
+            else if (gameTimer >= setScale.FIRE_RATE/2 && gameTimer < (2 * setScale.FIRE_RATE) / 3)
             {
                 Quaternion newRotation = Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + 14);
                 transform.rotation = newRotation;
             }
-            else if (gameTimer > 0.6f)
+            else if (gameTimer > setScale.FIRE_RATE)
             {
                 start = false;
             }

@@ -23,7 +23,7 @@ public class TriggerFire : MonoBehaviour
         if (start)
         {
             gameTimer += Time.deltaTime;
-            if (gameTimer >= 0.1f && gameTimer < 0.2f)
+            if (gameTimer >= setScale.FIRE_RATE/6 && gameTimer < setScale.FIRE_RATE/3)
             {
                 Vector3 newVector;
                 Vector3 newPosition = transform.position;
@@ -33,7 +33,7 @@ public class TriggerFire : MonoBehaviour
                 newPosition.y += newVector.y / 45;
                 transform.position = newPosition;
             }
-            else if (gameTimer >= 0.3f && gameTimer < 0.4f)
+            else if (gameTimer >= setScale.FIRE_RATE/2 && gameTimer < (2*setScale.FIRE_RATE)/3)
             {
                 Vector3 newVector;
                 Vector3 newPosition = transform.position;
@@ -43,7 +43,7 @@ public class TriggerFire : MonoBehaviour
                 newPosition.y += newVector.y / 45;
                 transform.position = newPosition;
             }
-            else if (gameTimer > 0.6f)
+            else if (gameTimer > setScale.FIRE_RATE)
             {
                 start = false;
                 gun.transform.localScale = new Vector3(gun.transform.localScale.x, gun.transform.localScale.y, 1);

@@ -9,12 +9,12 @@ public class FireBullet : MonoBehaviour
     public bool start, noSpam;
     public GameObject gun;
     public AudioSource audioData;
+    public int numOfShots;
     void Start()
     {
         start = false;
         noSpam = false;
         audioData = GetComponent<AudioSource>();
-        
     }
     void Update()
     {
@@ -27,7 +27,7 @@ public class FireBullet : MonoBehaviour
         if (start)
         {
             gameTimer += Time.deltaTime;
-            if (gameTimer > 0.3f && noSpam)
+            if (gameTimer > setScale.FIRE_RATE/ 2 && noSpam)
             {
                 Vector3 vector = new Vector3(2.4f * setScale.GUN_SCALE, 1.9f * setScale.GUN_SCALE, 0.0f);
                 Quaternion newRotation = transform.rotation;
@@ -40,7 +40,7 @@ public class FireBullet : MonoBehaviour
                 audioData.Play(0);
                 noSpam = false;
             }
-            else if (gameTimer > 0.6f)
+            else if (gameTimer > setScale.FIRE_RATE)
             {
                 start = false;
             }

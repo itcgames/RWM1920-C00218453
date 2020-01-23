@@ -220,7 +220,7 @@ PrefabInstance:
     - target: {fileID: 678727046283705131, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.25
       objectReference: {fileID: 0}
     - target: {fileID: 678727046283705131, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
         type: 3}
@@ -302,5 +302,45 @@ PrefabInstance:
       propertyPath: gun
       value: 
       objectReference: {fileID: 927037695}
+    - target: {fileID: 778598520545798343, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: fireRateInput
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 778598520545798343, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: scaleInput
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: noSpam
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: allowSpam
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: fireRate
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083179216447321755, guid: a7cb6f4a71335ac42b80a8e7fa3235e3,
+        type: 3}
+      propertyPath: numOfShots
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7cb6f4a71335ac42b80a8e7fa3235e3, type: 3}

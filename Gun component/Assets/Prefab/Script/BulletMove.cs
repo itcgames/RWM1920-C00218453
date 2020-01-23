@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class BulletMove : MonoBehaviour
 {
-    public int speed;
+    public float speed;
     private void Start()
     {
         gameObject.AddComponent<BoxCollider2D>();
-        if(speed <= 0)
+        if(speed < 0.2)
         {
-            speed = 1;
+            speed = 0.2f;
+        }
+        else if (speed > 5)
+        {
+            speed = 5.0f;
         }
     }
 

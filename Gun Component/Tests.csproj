@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Prefab\Script\Tests\TestBulletMove.cs" />
-    <Compile Include="Assets\Prefab\Script\Tests\TestCollision.cs" />
+    <Compile Include="Assets\Prefab\Script\Tests\TestMultiShot.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
